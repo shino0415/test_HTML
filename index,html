@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ポートフォリオ - あなたの名前</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        section {
+            padding: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .project {
+            background-color: white;
+            margin: 1rem 0;
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>あなたの名前</h1>
+        <p>ウェブ開発者 | デザイナー</p>
+    </header>
+
+    <section id="about">
+        <h2>自己紹介</h2>
+        <p>こんにちは、私はウェブ開発とデザインに情熱を持つ開発者です。新しい技術を学び、革新的なプロジェクトを作成するのが好きです。</p>
+    </section>
+
+    <section id="projects">
+        <h2>プロジェクト</h2>
+        <div class="project">
+            <h3>プロジェクト1: ウェブサイト</h3>
+            <p>説明: レスポンシブなウェブサイトを作成しました。</p>
+            <a href="#">リンク</a>
+        </div>
+        <div class="project">
+            <h3>プロジェクト2: アプリ</h3>
+            <p>説明: モバイルアプリを開発しました。</p>
+            <a href="#">リンク</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>連絡先</h2>
+        <p>Email: your.email@example.com</p>
+        <p>LinkedIn: <a href="#">リンク</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 あなたの名前. All rights reserved.</p>
+    </footer>
+</body>
+</html>
